@@ -19,3 +19,7 @@ li {
   justify-content: center;
   display: flex;
 }
+
+#groceryList {
+  width: 300px;
+}
