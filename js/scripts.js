@@ -13,5 +13,17 @@ $(document).ready(function() {
     sortedArray.forEach(function(grocery) {
       uppercaseArray.push(grocery.toUpperCase());
     });
+    
+    $("#uppercaseList").append("<li>" + uppercaseArray[0] + "</li>")
+    $("#uppercaseList").append("<li>" + uppercaseArray[1] + "</li>")
+    $("#uppercaseList").append("<li>" + uppercaseArray[2] + "</li>")
+    $("#uppercaseList").append("<li>" + uppercaseArray[3] + "</li>")
+    $("#uppercaseList").append("<li>" + uppercaseArray[4] + "</li>")
+    $("#uppercaseList").append("<li>" + uppercaseArray[5] + "</li>")
+
+  $("#results").show();
+  $("#list").hide();
+
+
 });
 });
